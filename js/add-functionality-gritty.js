@@ -29,13 +29,10 @@ function addGreet(event) {
     newGreetText.innerText = greet;
     const greets = document.getElementById('greets').getElementsByTagName('ul')[0];
     const newerGreetLi = greets.appendChild(newGreetLi);
-    debugger;
     newerGreetLi.appendChild(newGreetAvatar);
     newerGreetLi.appendChild(newGreetText);
     gritterForm.greet.value = "";
-    
 }
-
 
 
 // helpers
@@ -64,12 +61,3 @@ grittyBorder.onmouseleave = toggleGritty;
 rotateLeftButton.onclick = rotateGritty;
 rotateRightButton.onclick = rotateGritty;
 gritterForm.onsubmit = addGreet;
-
-// document.createElement('p');
-// document.body.appendChild(paragraph);
-// document.body.removeChild(paragraph);
-
-
-// event handlers
-// adding eventListeners
-// mouseTarget.addEventListener('eventlistener', function(e) {something})
