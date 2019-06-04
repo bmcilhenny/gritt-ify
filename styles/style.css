@@ -32,13 +32,6 @@ html {
     font-weight: bold;
   }
   
-  #serif, /* Offset linked sections to account for header. */
-  #sans,
-  #mono {
-    padding-top: 77px;
-    margin-top: -77px;
-  }
-  
   /* Header */
   
   .header {
@@ -89,9 +82,9 @@ html {
       filter: drop-shadow(1px 1px 1px #222);
   }
   
-  /* Editorial Sections */
+  /*hide-and-go Sections */
   
-  .editorial {
+  #hide-and-go {
     padding: 20px;
     margin: 20px 0;
     text-align: center;
@@ -108,15 +101,15 @@ html {
       width: 90%;
   }
   
-  /* Font Card Sections */
+  /* gritter Card Sections */
   
-  .font-card {
+  .gritter-card {
     background-color: #ffffff;
     margin: 50px 0;
     padding: 20px 50px;
   }
   
-  .font-card .creator {
+  .gritter-card .subheader {
     font-size: 20px;
     line-height: 1.25;
   }
