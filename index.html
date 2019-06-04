@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Gritty-ify</title>
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Gritty-ify</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
+
 <body>
 
-  <!-- Header -->
-  <nav class="header">
-    <ul>
-      <li><a class="home" href="#top">Gritt-ify</a></li>
-      <li><a class="pagelink" href="#gritty-rotation-station">Gritty Rotation Station</a></li>
-      <li><a class="pagelink" href="#hide-and-go">Hide and Go Gritty</a></li>
-      <li><a class="pagelink" href="#gritter">Gritter</a></li>
-    </ul>
-  </nav>
-
-  <!-- Banner Section -->
-  <div class="banner" id="gritty-rotation-station">
-    <h1>Gritty Rotation Station</h1>
-    <img id="small-gritty" src="./assets/better_than_drake.png" alt="Gritty face PNG" />
-    <p>To all those that believe everything's better with Gritty's face on it, this one's for you.</p>
-    <button type="button" id="rotate-left-button">Rotate Left</button>
-    <button type="button" id="rotate-right-button">Rotate Right</button>
-  </div>
-
-<!-- Editorial Section - Serif -->
-<div class="editorial" id="hide-and-go">
-    <h2>Hide and Go Gritty</h2>
-    <p>Event handlers give you the ability to define how a site should react to a user's action. For instance, you can trigger an event when a user <strong>hovers over an element on your site</strong>.</p>
-    <p><em>You're not limited to mouse events, you can also define key events when users interact with their keyboards.</em></p>
-    <div class="border"  id="gritty-border" >
-        <img class="" id="toggle-gritty" src="./assets/better_than_drake.png" alt="Gritty face PNG" />
-    </div>
-</div>
-
-<!-- Font Card - Serif -->
-<div class="font-card">
-    <span class="gritter bold" id="gritter">Gritter</span>
-    <!-- <span class="sample">
-    <span class="sample bold text">Gritter</span> -->
-    <p class="creator">Social media dedicated to Gritty... and only Gritty.. cause he's a psycho.</p>
-    <form id="gritter-form">
-        <input type='text' name='greet' />
-        <input type="submit" value="Submit">
-    </form>
-    <div id="greets">
+    <!-- Header -->
+    <nav class="header">
         <ul>
-            <li><div class='avatar'></div><span>Hey there, it's Gritty again.</span></li>
-            <li><div class='avatar'></div><span>I'm Gritty and I've eaten 0 mascots since yesterday.</span></li>
+            <li><a class="home" href="#top">Gritt-ify</a></li>
+            <li><a class="pagelink" href="#gritty-rotation-station">Gritty Rotation Station</a></li>
+            <li><a class="pagelink" href="#hide-and-go">Hide and Go Gritty</a></li>
+            <li><a class="pagelink" href="#gritter">Gritter</a></li>
         </ul>
+    </nav>
+
+    <!-- Rotation Station Section -->
+    <div class="banner" id="gritty-rotation-station">
+        <h1>Gritty Rotation Station</h1>
+        <img id="small-gritty" src="./assets/better_than_drake.png" alt="Gritty face PNG" />
+        <p>To all those that believe everything's better with Gritty's face on it, this one's for you.</p>
+        <button type="button" id="rotate-left-button">Rotate Left</button>
+        <button type="button" id="rotate-right-button">Rotate Right</button>
     </div>
-    
-</div> 
-  <script src="./add-functionality-gritty.js"></script>
+
+    <!-- Hide and Go Section -->
+    <div class="editorial" id="hide-and-go">
+        <h2>Hide and Go Gritty</h2>
+        <p>Event handlers give you the ability to define how a site should react to a user's action. For instance, you
+            can trigger an event when a user <strong>hovers over an element on your site</strong>.</p>
+        <p><em>You're not limited to mouse events, you can also define key events when users interact with their
+                keyboards.</em></p>
+        <div class="border" id="gritty-border">
+            <img class="" id="toggle-gritty" src="./assets/better_than_drake.png" alt="Gritty face PNG" />
+        </div>
+    </div>
+
+    <!-- Gritter section -->
+    <div class="font-card">
+        <span class="gritter bold" id="gritter">Gritter</span>
+        <p class="creator">Social media dedicated to Gritty... and only Gritty.. cause he's a psycho.</p>
+        <form id="gritter-form">
+            <input type='text' name='greet' />
+            <input type="submit" value="Submit">
+        </form>
+        <div id="greets">
+            <ul>
+                <li>
+                    <div class='avatar'></div><span>Hey there, it's Gritty again.</span>
+                </li>
+                <li>
+                    <div class='avatar'></div><span>I'm Gritty and I've eaten 0 mascots since yesterday.</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <script src="./add-functionality-gritty.js"></script>
 </body>
+
 </html>
